@@ -99,18 +99,12 @@
             padding: 1rem;
         }
 
-        .install-banner a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-            padding: 0.5rem 1rem;
-            border: 2px solid white;
-            border-radius: 5px;
-        }
-
-        /* New style for the footer download button */
-        .footer-download-btn {
-            margin-bottom: 1.5rem;
+        /* Style for the image above the heading */
+        .banner-image {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            margin-bottom: 1rem;
         }
     </style>
 </head>
@@ -126,6 +120,9 @@
     <div class="main-content">
         <!-- Card container for the middle part -->
         <div class="card">
+            <!-- Banner image above the heading -->
+            <img src="https://cdn.zyrosite.com/cdn-cgi/image/format=auto,w=600,h=450,fit=crop/cdn-ecommerce/store_01JDKG8ERZFZ1HRBRE4JD31N3V%2Fassets%2F1737321484524-RedKissLoveInstagramSquarePost11.png"  height="150dp"   class="banner-image">
+
             <h2 style="margin: 1rem 0; color: #333;">Order Sacred Prasad at ₹1</h2>
             
             <div class="prasad-grid">
@@ -150,15 +147,17 @@
         </div>
     </div>
 
-    <!-- Footer with download button above copyright -->
-    
+    <!-- Footer -->
+    <footer class="footer">
+        <p style="margin-top: 0.5rem;">Contact: support@mahakumbhprasad.com</p>
+    </footer>
 
     <!-- Sticky Footer Install Banner -->
     <div class="install-banner">
         <p>Get the Mahakumbh 2025 app to order Prasad!</p>
-        <br>
-        <p>© 2025 Mahakumbh Prasad | India | English</p>
-        <p style="margin-top: 0.5rem;">Contact: support@mahakumbhprasad.com</p>
+    <br>
+    <p>© 2025 Mahakumbh Prasad | India | English</p>
+  
     </div>
 </body>
 </html>
